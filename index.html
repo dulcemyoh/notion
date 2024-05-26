@@ -38,7 +38,7 @@
     }
 
 
-    .blog:hover {
+    .beatstore:hover {
       color: #ffbd2f;
     }
 
@@ -54,7 +54,7 @@
       color: rgb(241, 102, 217);
     }
 
-    .linkedin:hover {
+    .linktree:hover {
       color: #0e76a8;
     }
 
@@ -97,11 +97,11 @@
 
     <div class="wrapper">
 
-      <!-- Start blog Icon -->
-      <div id="blog" onclick="navigate(this.id)" class="social">
-        <span class="icon blog"><i class="fa-solid fa-blog"></i></span>
+      <!-- Start beatstore Icon -->
+      <div id="beatstore" onclick="navigate(this.id)" class="social">
+        <span class="icon beatstore"><i class="fa-solid fa-beatstore"></i></span>
       </div>
-      <!-- End blog Icon -->
+      <!-- End beatstore Icon -->
 
       <!-- Start email Icon -->
       <div id="email" onclick="navigate(this.id)" class="social">
@@ -121,11 +121,11 @@
       </div>
       <!-- End instagram Icon -->
 
-      <!-- Start linkedin Icon -->
-      <div id="linkedin" onclick="navigate(this.id)" class="social">
-        <span class="icon linkedin"><i class="fab fa-linkedin"></i></span>
+      <!-- Start linktree Icon -->
+      <div id="linktree" onclick="navigate(this.id)" class="social">
+        <span class="icon linkedin"><i class="fab linkedin"></i></span>
       </div>
-      <!-- End linkedin Icon -->
+      <!-- End linktree Icon -->
 
       <!-- Start twitter Icon -->
       <div id="twitter" onclick="navigate(this.id)" class="social">
@@ -133,36 +133,11 @@
       </div>
       <!-- End twitter Icon -->
 
-      <!-- Start reddit Icon -->
-      <div id="reddit" onclick="navigate(this.id)" class="social">
-        <span class="icon reddit"><i class="fab fa-reddit"></i></span>
-      </div>
-      <!-- End reddit Icon -->
-
-      <!-- Start tiktok Icon -->
-      <div id="tiktok" onclick="navigate(this.id)" class="social">
-        <span class="icon tiktok"><i class="fab fa-tiktok"></i></span>
-      </div>
-      <!-- End tiktok Icon -->
-
       <!-- Start youtube Icon -->
       <div id="youtube" onclick="navigate(this.id)" class="social">
         <span class="icon youtube"><i class="fab fa-youtube"></i></span>
       </div>
       <!-- End youtube Icon -->
-
-      <!-- Start pinterest Icon -->
-      <div id="pinterest" onclick="navigate(this.id)" class="social">
-        <span class="icon pinterest"><i class="fab fa-pinterest"></i></span>
-      </div>
-      <!-- End pinterest Icon -->
-
-      <!-- Start telegram Icon -->
-      <div id="telegram" onclick="navigate(this.id)" class="social">
-        <span class="icon telegram"><i class="fab fa-telegram"></i></span>
-      </div>
-      <!-- End telegram Icon -->
-
 
 
     </div>
@@ -175,8 +150,8 @@
 
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
-        if (id === "blog")
-          window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
+        if (id === "beatstore")
+          window.open("https://www.beatstars.com/lillantis/tracks", '_blank').focus(); //Add the url to your beatstore
 
         else if (id === "email") {
           window.open("mailto:someone@yoursite.com", '_blank').focus(); //Add your email after "mailto:""
@@ -186,13 +161,13 @@
           window.open("https://facebook.com/", '_blank').focus(); //Add the url to your facebook page or account
         }
         else if (id === "instagram") {
-          window.open("instagram.com", '_blank').focus(); //Add the url to your instagram account
+          window.open("https://www.instagram.com/lil_lantis/", '_blank').focus(); //Add the url to your instagram account
         }
-        else if (id === "linkedin") {
-          window.open("https://www.linkedin.com/", '_blank').focus(); //Add the url to your pinterest account
+        else if (id === "linktree") {
+          window.open("https://linktr.ee/lillantis", '_blank').focus(); //Add the url to your pinterest account
         }
         else if (id === "twitter") {
-          window.open("https://twitter.com/", '_blank').focus(); //Add the url to your pinterest account
+          window.open("https://twitter.com/LilLantis", '_blank').focus(); //Add the url to your pinterest account
         }
         else if (id === "reddit") {
           window.open("https://www.reddit.com/", '_blank').focus(); //Add the url to your reddit account
@@ -201,7 +176,7 @@
           window.open("https://www.tiktok.com/", '_blank').focus(); //Add the url to your tiktok account
         }
         else if (id === "youtube") {
-          window.open("https://www.youtube.com/", '_blank').focus(); //Add the url to your youtube account
+          window.open("https://www.youtube.com/c/LILLANTIS/videos", '_blank').focus(); //Add the url to your youtube account
         }
         else if (id === "pinterest") {
           window.open("https://www.pinterest.com/", '_blank').focus(); //Add the url to your pinterest account
