@@ -38,7 +38,7 @@
     }
 
 
-    .beatstore:hover {
+    .facebook:hover {
       color: #ffbd2f;
     }
 
@@ -54,7 +54,7 @@
       color: rgb(241, 102, 217);
     }
 
-    .linktree:hover {
+    .linkedin:hover {
       color: #0e76a8;
     }
 
@@ -97,11 +97,11 @@
 
     <div class="wrapper">
 
-      <!-- Start beatstore Icon -->
-      <div id="beatstore" onclick="navigate(this.id)" class="social">
-        <span class="icon beatstore"><i class="fa-solid fa-beatstore"></i></span>
+      <!-- Start facebook Icon -->
+      <div id="facebook" onclick="navigate(this.id)" class="social">
+        <span class="icon facebook"><i class="fa-solid fa-facebook"></i></span>
       </div>
-      <!-- End beatstore Icon -->
+      <!-- End facebook Icon -->
 
       <!-- Start email Icon -->
       <div id="email" onclick="navigate(this.id)" class="social">
@@ -121,11 +121,11 @@
       </div>
       <!-- End instagram Icon -->
 
-      <!-- Start linktree Icon -->
-      <div id="linktree" onclick="navigate(this.id)" class="social">
+      <!-- Start linkedin Icon -->
+      <div id="linkedin" onclick="navigate(this.id)" class="social">
         <span class="icon linkedin"><i class="fab linkedin"></i></span>
       </div>
-      <!-- End linktree Icon -->
+      <!-- End linkedin Icon -->
 
       <!-- Start twitter Icon -->
       <div id="twitter" onclick="navigate(this.id)" class="social">
@@ -150,8 +150,8 @@
 
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
-        if (id === "beatstore")
-          window.open("https://www.beatstars.com/lillantis/tracks", '_blank').focus(); //Add the url to your beatstore
+        if (id === "facebook")
+          window.open("https://www.beatstars.com/lillantis/tracks", '_blank').focus(); //Add the url to your facebook
 
         else if (id === "email") {
           window.open("mailto:someone@yoursite.com", '_blank').focus(); //Add your email after "mailto:""
@@ -163,7 +163,7 @@
         else if (id === "instagram") {
           window.open("https://www.instagram.com/lil_lantis/", '_blank').focus(); //Add the url to your instagram account
         }
-        else if (id === "linktree") {
+        else if (id === "linkedin") {
           window.open("https://linktr.ee/lillantis", '_blank').focus(); //Add the url to your pinterest account
         }
         else if (id === "twitter") {
